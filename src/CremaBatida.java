@@ -5,11 +5,11 @@ public class CremaBatida extends Decorator{
     }
     @Override
     public String getDescripcion() {
-        return getDescripcion()+"+ Crema Batida";
+        return cafe.getDescripcion()+"+ Crema Batida";
     }
 
     @Override
     public double getPrecio() {
-        return getPrecio()+ 5.00;
+        return cafe.getPrecio()+ 5.00;
     }
 }
